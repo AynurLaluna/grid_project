@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #A63F82;
+    gap: 4px;
+
+}
+
+.item1,
+.item2,
+.item3 {
+    background-color: #D98A29;
+    transition: all 0.7s;
+}
+
+
+.item1:hover {
+    width: 60vw;
+    background-color: #A63F82;
+}
+
+.item2:hover {
+    width: 60vw;
+    background-color: #A63F82;
+}
+
+.item3:hover {
+    width: 60vw;
+    background-color: #A63F82;
+}
